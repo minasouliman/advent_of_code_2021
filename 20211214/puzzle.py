@@ -1,6 +1,6 @@
 #%%
 import csv
-from typing import List
+from typing import ByteString, List
 from collections import Counter
 
 insertions = {}
@@ -37,3 +37,10 @@ print(first,'\n',second)
 
 print(first.most_common()[0][1], first.most_common()[-1][1])
 print(second.most_common()[0][1], second.most_common()[-1][1])
+
+
+"OBSO"
+
+"OB"
+"BS"
+"SO"
